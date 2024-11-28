@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home page</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h1 class="header__title">Кирилл Барков</h1>
+			<h3 class="header__subtitle">Frontend Разработчик</h3>
+		</header>
+		<main>
+			<section class="section__choise">
+				<!-- Элемент для фона, который будет перемещаться -->
+				<div class="background"></div>
+				<!-- Элементы, по которым будет перемещаться фон -->
+				<div class="div__content skills" data-index="0">Скилы</div>
+				<div class="div__content projects" data-index="1">Проекты</div>
+				<div class="div__content contacts" data-index="2">Контакты</div>
+				<!-- Окна, которые будут появляться при выборе элементов -->
+				<div class="popup skills-popup" data-index="0">
+					<div class="skill-item blue" data-skill-index="0">HTML</div>
+					<div class="skill-item blue" data-skill-index="1">CSS</div>
+					<div class="skill-item blue" data-skill-index="2">JavaScript</div>
+					<div class="skill-item" data-skill-index="3">SCSS</div>
+					<div class="skill-item" data-skill-index="4">Flexbox</div>
+					<div class="skill-item" data-skill-index="5">Git</div>
+					<div class="skill-item" data-skill-index="6">Bash</div>
+					<div class="skill-item" data-skill-index="7">TypeScript</div>
+					<div class="skill-item" data-skill-index="8">React</div>
+					<div class="skill-item" data-skill-index="9">Redux</div>
+					<div class="skill-item" data-skill-index="10">Grid Layout</div>
+					<div class="skill-item" data-skill-index="11">DOM</div>
+					<div class="skill-item" data-skill-index="12">Webpack</div>
+					<div class="skill-item" data-skill-index="13">Vite</div>
+					<div class="skill-item" data-skill-index="14">React Router</div>
+					<div class="skill-item" data-skill-index="15">ООП</div>
+				</div>
+				<div class="popup projects-popup" data-index="1">
+					<iframe src="https://www.example.com" width="100%" height="400px" frameborder="0"></iframe>
+				</div>
+				<div class="popup contacts-popup" data-index="2">
+					<a href="https://t.me/Andiewahl" target="_blank" class="contact-button telegram">Telegram</a>
+					<a href="https://vk.com/andiewahl" target="_blank" class="contact-button vk">VK</a>
+					<a href="https://www.youtube.com/@andiguild" target="_blank" class="contact-button youtube">YouTube</a>
+					<a href="https://discordapp.com/users/327712213441970176/" target="_blank" class="contact-button discord">Discord</a>
+				</div>
+				<div class="popup skill-popup" data-skill-index="0">
+					<div class="skill-text">HTML — это стандартный язык разметки для создания веб-страниц.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="1">
+					<div class="skill-text">CSS — это язык, используемый для описания стиля документа, написанного на HTML или XML.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="2">
+					<div class="skill-text">JavaScript — это язык программирования, соответствующий спецификации ECMAScript.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="3">
+					<div class="skill-text">SCSS — это препроцессорный язык сценариев, который интерпретируется или компилируется в CSS.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="4">
+					<div class="skill-text">Flexbox — это модель компоновки, которая позволяет элементам выравниваться и распределять пространство внутри контейнера.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="5">
+					<div class="skill-text">Git — это распределенная система управления версиями для отслеживания изменений в исходном коде во время разработки программного обеспечения.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="6">
+					<div class="skill-text">Bash — это Unix-оболочка и командный язык, написанный Брайаном Фоксом для проекта GNU.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="7">
+					<div class="skill-text">TypeScript — это язык программирования, разработанный и поддерживаемый Microsoft.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="8">
+					<div class="skill-text">React — это библиотека JavaScript для создания пользовательских интерфейсов.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="9">
+					<div class="skill-text">Redux — это библиотека JavaScript с открытым исходным кодом для управления состоянием приложения.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="10">
+					<div class="skill-text">Grid Layout — это двухмерная система компоновки для веба.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="11">
+					<div class="skill-text">DOM — это программный интерфейс для веб-документов.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="12">
+					<div class="skill-text">Webpack — это модульный сборщик JavaScript с открытым исходным кодом.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="13">
+					<div class="skill-text">Vite — э��о инструмент сборки, который стремится обеспечить более быстрый и легкий опыт разработки для современных веб-проектов.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="14">
+					<div class="skill-text">React Router — это набор навигационных компонентов, которые декларативно сочетаются с вашим приложением.</div>
+				</div>
+				<div class="popup skill-popup" data-skill-index="15">
+					<div class="skill-text">ООП (Объектно-ориентированное программирование) — это парадигма программирования, основанная на концепции объектов.</div>
+				</div>
+			</section>
+		</main>
+		<footer></footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
