@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Sovngarde';
-    src: url('SovngardeBold.woff2') format('woff2'),
-        url('SovngardeBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
